@@ -26,3 +26,4 @@ class ProductDeleteView(DeleteView):
 
 class ProductDetailView(DetailView):
     model = Product
+    template_name = 'crud/product_detail.html'
